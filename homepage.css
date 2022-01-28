@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    background: white;
+    font-family: 'Open sans', serif;
+}
+
+.header {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+img {
+    width: 240px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    --tw-text-opacity: 1;
+    color: rgba(107,114,128,var(--tw-text-opacity));
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 17px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    --tw-text-opacity: 1;
+    background: rgba(107,114,128,var(--tw-text-opacity));
+    color: white;
+    font-weight: 500;
+    padding: 8px 24px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+
+/* Body style */
+
+.welcome {
+    --tw-text-opacity: 1;
+    color: rgba(206,151,62,var(--tw-text-opacity));
+    font-size: 75px;
+    font-weight: 300;
+}
+
+.title {
+    --tw-text-opacity: 1;
+    color: rgba(107,114,128,var(--tw-text-opacity));
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.card-main {
+    border-radius: 10px;
+    box-shadow: 0px 15px 30px rgb(0 0 0 / 15%);
+    padding: 40px 60px;
+    box-sizing: border-box;
+    width: 800px;
+}
+
+img[src="./Images/k.png"] {
+    border-radius: 50%;
+}
+
+.break {
+    padding: 8px;
+}
+
+.progress {
+    list-style-type: circle;
+    font-size: 13px;
+    list-style-position: inside;
+}
+
+.progress-text {
+    flex-wrap: wrap;
+}
+
+
+
+/* Flexbox style */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 28px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    gap: 28px;
+}
+
+
+/* Flexbox body style */
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 40px;
+}
+
+.welcome {
+    display: flex;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+    padding-bottom: 0px;
+}

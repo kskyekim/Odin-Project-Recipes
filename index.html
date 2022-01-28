@@ -3,12 +3,60 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utc-8" />
-        <title>Odin Recipes</title>
-    </head>
+<head>
+    <meta charset="utc-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="./homepage.css" />
+</head>
     <body>
-        <h1>Odin Recipes</h1>
-        <a href="./Recipes/Honey Garlic Glazed Salmon.html">Honey Garlic Glazed Salmon</a>
+        <!-- This is the header flexbox -->
+        <div class="header">
+            <div class="left">
+                <img src="./Images/logo.png" alt=""/>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="./recipes.html">Recipes</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+
+                <button class="GitHub">
+                    GitHub
+                </button>
+            </div>
+        </div>
+
+        <!-- This is the body flexbox -->
+        <div class="body">
+            <div class="welcome">
+                Welcome
+            </div>
+
+            <div class="title">
+                Odin Recipes
+            </div>
+
+            <div class="card-main">
+                <img src="./Images/k.png" alt="" />
+                <div class="progress-text">
+                    <p>This project is intended to be used as a learning tool for HTML and CSS functions.
+                        Although pictures and names of "The Odin Project" are used, this project is not
+                        affiliated with their organization. 
+                    </p>
+
+                    <div class="break"></div>
+
+                    <p>Current progress:</p>
+                    <ul class="progress">
+                        <li>Creating HTML and CSS documents</li>
+                        <li>Creating layouts with Flexbox</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
     </body>
 </html>
